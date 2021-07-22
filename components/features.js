@@ -1,4 +1,9 @@
-import { CurrencyDollarIcon, LightningBoltIcon, ScaleIcon, SwitchVerticalIcon } from '@heroicons/react/outline'
+import { 
+  CurrencyDollarIcon, 
+  LightningBoltIcon, 
+  ScaleIcon, 
+  SwitchVerticalIcon 
+  } from '@heroicons/react/outline'
 
 const features = [
   {

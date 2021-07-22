@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Hero from '../components/hero'
 import Features from '../components/features'
+import Developers from '../components/developers'
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
 
       <main>
         <Features />
+
+        <Developers />
       </main>
     </div>
   )

@@ -27,4 +27,21 @@
 
 @tailwind components;
 
+
+.scroll-bg {
+  animation-name: scrollBackground;
+  animation-duration: 35s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrollBackground {
+  0% {
+    transform:rotate(16deg) translateY(0)
+  }
+  to {
+    transform:rotate(16deg) translateY(-800px)
+  }
+ }
+
 @tailwind utilities;
