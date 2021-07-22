@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Hero from '../components/hero'
 import Features from '../components/features'
 import Developers from '../components/developers'
+import Faq from '../components/faq'
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
         <Features />
 
         <Developers />
+
+        <Faq />
       </main>
     </div>
   )
