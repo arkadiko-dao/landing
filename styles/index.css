@@ -22,11 +22,13 @@
   font-style: normal;
 }
 
-
 @tailwind base;
 
 @tailwind components;
 
+html {
+  scroll-behavior: smooth;
+}
 
 .scroll-bg {
   animation-name: scrollBackground;
@@ -42,6 +44,6 @@
   to {
     transform:rotate(16deg) translateY(-800px)
   }
- }
+}
 
 @tailwind utilities;

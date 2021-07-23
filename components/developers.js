@@ -7,19 +7,19 @@ import {
 const resources = [
   {
     name: 'GitHub',
-    link: '',
+    link: 'https://github.com/arkadiko-dao/arkadiko',
     icon: CodeIcon,
     btnClasses: 'bg-indigo-500 hover:bg-indigo-700'
   },
   {
     name: 'Documentation',
-    link: '',
+    link: 'https://docs.arkadiko.finance/',
     icon: DocumentTextIcon,
     btnClasses: 'bg-indigo-600 hover:bg-indigo-800'
   },
   {
     name: 'Bug Bounty',
-    link: '',
+    link: 'https://github.com/arkadiko-dao/arkadiko/blob/master/SECURITY.md',
     icon: GiftIcon,
     btnClasses: 'bg-indigo-700 hover:bg-indigo-900'
   }
@@ -31,7 +31,7 @@ function classNames(...classes) {
 
 export default function Developers() {
   return (
-    <div className="relative py-16 sm:py-48 overflow-hidden">
+    <section id="developers" className="relative py-16 sm:py-48 overflow-hidden">
       <div className="max-w-7xl mx-auto lg:px-8">
         <div className="lg:grid lg:grid-cols-12">
           <div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
@@ -58,7 +58,7 @@ export default function Developers() {
               <img src="/shape-thorus.png" width="125" height="125" />
             </div>
             <div className="relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
-              <h2 className="text-4xl font-extrabold font-headings bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-indigo-800">
+              <h2 className="text-3xl sm:text-4xl font-extrabold font-headings bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-indigo-800">
                 Develop on the new financial standard
               </h2>
               <p className="text-lg text-gray-700">
@@ -82,6 +82,6 @@ export default function Developers() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

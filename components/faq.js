@@ -46,7 +46,7 @@ function classNames(...classes) {
 
 export default function Faq() {
   return (
-    <div className="bg-black bg-opacity-70 relative">
+    <section id="faq" className="bg-black bg-opacity-70 relative">
       <div className="max-w-7xl mx-auto py-16 sm:py-48 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-headings text-center text-3xl text-white sm:text-4xl">Frequently asked questions</h2>
@@ -76,6 +76,6 @@ export default function Faq() {
           </dl>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
