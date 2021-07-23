@@ -7,16 +7,20 @@ export default function Header() {
     <Disclosure as="nav" className="bg-gray-800 bg-opacity-75">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-4 px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-4 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex justify-between flex-1">
                 <a className="flex-shrink-0 flex items-center" href="/">
                   <img className="hidden lg:block h-8 w-auto sm:h-8" src="/logo.svg" alt="Arkadiko" />
-                  <span className="font-headings ml-4 inline-block align-middle text-white text-xl">Arkadiko</span>
+                  <span className="font-headings sm:ml-4 inline-block align-middle text-white text-xl">Arkadiko</span>
                 </a>
                 
                 <div className="hidden lg:ml-6 lg:flex lg:space-x-8 lg:items-center">
                   <div className="sm:flex sm:space-x-8 sm:h-full">
+                    <a className="border-transparent text-gray-50 hover:border-gray-100 hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="#" target="_blank" rel="noopener noreferrer">
+                      Whitepaper
+                    </a>
+                    
                     <a className="border-transparent text-gray-50 hover:border-gray-100 hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="https://docs.arkadiko.finance/" target="_blank" rel="noopener noreferrer">
                       Docs
                       <ExternalLinkIcon className="block h-3 w-3 ml-2" aria-hidden="true" />
@@ -50,9 +54,13 @@ export default function Header() {
             </div>
           </div>
 
-          <Disclosure.Panel className="lg:hidden">
+          <Disclosure.Panel className="lg:hidden bg-white">
             <div>
               <div className="pt-2 pb-3 space-y-1">
+                <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" href="" target="_blank" rel="noopener noreferrer">
+                  Whitepaper
+                </a>
+
                 <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" href="https://docs.arkadiko.finance/" target="_blank" rel="noopener noreferrer">
                   Docs
                 </a>

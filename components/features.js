@@ -34,7 +34,7 @@ const features = [
 export default function Features() {
   return (
     <section id="features" className="bg-white bg-opacity-90 overflow-hidden relative">
-      <div className="max-w-7xl mx-auto px-4 px-6 lg:px-8 py-16 sm:py-48">
+      <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16 sm:py-48">
         <div className="absolute -left-1/2 bottom-28 ml-32 w-2/3 h-1/3">
           <svg viewBox="0 0 200 200 " xmlns="http://www.w3.org/2000/svg">
             <animateTransform

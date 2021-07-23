@@ -65,7 +65,7 @@ export default function Developers() {
                 We believe in building in the open and transparency. <br/>
                 Contribute to the future of finance on Stacks/Bitcoin.
               </p>
-              <div className="mt-10 sm:flex sm:justify-center lg:justify-start bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-800 lg:space-x-3">
+              <div className="mt-10 sm:flex sm:justify-center lg:justify-start bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-800 space-y-3 sm:space-y-0 sm:space-x-3">
                 {resources.map((resource) => (
                   <div key={resource.name} className="rounded-md shadow relative group overflow-hidden">
                     <resource.icon className="absolute top-1/2 group-hover:left-0 transform -translate-x-16 -translate-y-1/2 transition duration-500 opacity-0 group-hover:-translate-x-0 group-hover:opacity-20 text-white block h-12 w-12 ml-2" aria-hidden="true" />
