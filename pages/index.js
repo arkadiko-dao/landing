@@ -6,6 +6,7 @@ import Features from '../components/features'
 import Developers from '../components/developers'
 import Faq from '../components/faq'
 import Community from '../components/community'
+import Whitepaper from '../components/whitepaper'
 import Footer from '../components/footer'
 
 export default function Home() {
@@ -40,6 +41,8 @@ export default function Home() {
         <Community />
 
         <Faq />
+
+        <Whitepaper />
       </main>
 
       <Footer />
