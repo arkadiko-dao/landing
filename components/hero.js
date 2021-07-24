@@ -9,7 +9,7 @@ export default function Hero() {
             <span className="block xl:inline">What if loans could repay themselves?</span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-lg text-gray-200 sm:text-xl md:mt-5 md:max-w-3xl">
-            No monthly payments. Earn 7% on your loan.
+            Earn 7% on your loan. No monthly payments.
           </p>
           <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
