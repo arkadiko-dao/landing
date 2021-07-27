@@ -46,9 +46,11 @@ export default function Home() {
 
         <Header />
 
-        <Hero />
+        <div style={{height: 'calc(100vh - 80px)'}}>  {/* Subtracts header's height */}
+          <Hero />
 
-        <HeroSocial />
+          <HeroSocial />
+        </div>
       </div>
 
       <main>
