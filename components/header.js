@@ -8,7 +8,7 @@ export default function Header() {
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 lg:px-8">
-            <div className="flex justify-between h-16">
+            <div className="flex justify-between h-20">
               <div className="flex justify-between flex-1">
                 <a className="flex-shrink-0 flex items-center" href="/">
                   <img className="hidden lg:block h-8 w-auto sm:h-8" src="/logo.svg" alt="Arkadiko" />
