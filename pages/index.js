@@ -13,8 +13,23 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen font-sans">
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <meta name="description" content="" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" key="twcard" />
+        <meta name="twitter:creator" content="" key="twhandle" />
+
+        {/* Open Graph */}
+        <meta property="og:url" content="" key="ogurl" />
+        <meta property="og:image" content="" key="ogimage" />
+        <meta property="og:site_name" content="" key="ogsitename" />
+        <meta property="og:title" content="" key="ogtitle" />
+        <meta property="og:description" content="" key="ogdesc" />
+
         <title>Arkadiko</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div>
