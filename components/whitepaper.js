@@ -1,6 +1,6 @@
 export default function Whitepaper() {
   return (
-    <section id="whitepaper" className="relative bg-white py-16 sm:py-48 overflow-hidden">
+    <section id="whitepaper" className="relative bg-white bg-opacity-80 py-16 sm:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="bg-indigo-800 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
           <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
