@@ -8,6 +8,7 @@ import Faq from '../components/faq'
 import Community from '../components/community'
 import Whitepaper from '../components/whitepaper'
 import Footer from '../components/footer'
+import HeroSocial from '../components/social'
 
 export default function Home() {
   return (
@@ -46,6 +47,8 @@ export default function Home() {
         <Header />
 
         <Hero />
+
+        <HeroSocial />
       </div>
 
       <main>

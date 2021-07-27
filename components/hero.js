@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="lg:relative bg-gray-800 relative py-16 sm:py-48 bg-opacity-75" style={{height: 'calc(100vh - 64px)'}}>
+    <section className="lg:relative bg-gray-800 relative py-16 sm:py-48 bg-opacity-75">
       <div className="max-w-7xl mx-auto px-4 lg:px-8">
         <div className="lg:w-1/2 xl:pr-16">
           <h1 className="font-headings text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl max-w-md mx-auto md:max-w-3xl">
