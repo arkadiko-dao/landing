@@ -3,7 +3,7 @@ export default function HeroSocial() {
     <section id="hero-social" className="lg:relative bg-indigo-200 relative bg-opacity-30">
       <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-          <h2 className="text-xl font-headings text-white text-center lg:text-left">
+          <h2 className="text-xl text-white text-center lg:text-left">
             Built on Stacks, secured by Bitcoin.
           </h2>
           <div className="flow-root self-center mt-8 lg:mt-0">
