@@ -11,7 +11,7 @@ export default function Whitepaper() {
               <p className="mt-8 text-sm text-indigo-200">
                 <span className="block font-bold mb-2">Disclaimer:</span>
                 <span className="text-indigo-100">
-                  Upon downloading this file, you hereby confirm that by accessing the whitepaper and other informational materials, you will be deemed to have reviewed and accepted certain terms therein, including confirmations that you are not based in a jurisdiction where such access would be prohibited or restricted in any manner.
+                  You confirm that by accessing the whitepaper and other informational materials, you will be deemed to have reviewed and accepted certain terms therein, including confirmations that you are not based in a jurisdiction where such access would be prohibited or restricted in any manner.
                 </span>
               </p>
               <a href="" className="mt-8 bg-white hover:bg-white-800 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-800 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Download</a>

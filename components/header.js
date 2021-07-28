@@ -17,7 +17,7 @@ export default function Header() {
                 
                 <div className="hidden lg:ml-6 lg:flex lg:space-x-8 lg:items-center">
                   <div className="sm:flex sm:space-x-8 sm:h-full">
-                    <a className="border-transparent text-gray-50 hover:border-gray-100 hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="#" target="_blank" rel="noopener noreferrer">
+                    <a className="border-transparent text-gray-50 hover:border-gray-100 hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="#whitepaper" rel="noopener noreferrer">
                       Whitepaper
                     </a>
                     
@@ -32,11 +32,12 @@ export default function Header() {
                     </a>
 
                     <div className="self-center">
-                      <button
+                      <a
                         type="button"
+                        href="https://forms.gle/3HSt7dNj92qEmXzf8"
                         className="relative inline-flex w-full justify-center items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                        <span>Launch app</span>
-                      </button>
+                        <span>Participate</span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -70,11 +71,12 @@ export default function Header() {
                 </a>
               </div>
               <div className="p-3 border-t border-gray-200">
-                <button
+                <a
                   type="button"
+                  href="https://forms.gle/3HSt7dNj92qEmXzf8"
                   className="relative inline-flex w-full justify-center items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                  <span>Launch app</span>
-                </button>
+                  <span>Participate</span>
+                </a>
               </div>
             </div>
           </Disclosure.Panel>

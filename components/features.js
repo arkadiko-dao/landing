@@ -8,13 +8,13 @@ import {
 const features = [
   {
     name: 'USDA',
-    description: 'Through our liquidity protocol, users can collateralize their assets and mint a stablecoin called USDA.',
+    description: 'Collateralize your STX tokens and mint our stablecoin USDA, which earns a yield of up to 15% APR.',
     icon: CurrencyDollarIcon,
   },
   {
     name: 'DEX',
     description:
-      'Arkadiko Swap is our implementation of a Decentralized Exchange on top of the Stacks blockchain.',
+      'Swap your favorite tokens on the Arkadiko Decentralized Exchange, all on top of the Stacks blockchain.',
     icon: SwitchVerticalIcon,
   },
   {
