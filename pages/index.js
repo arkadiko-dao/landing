@@ -31,7 +31,6 @@ export default function Home() {
         <meta property="og:url" content="https://arkadiko.finance">
         <meta property="og:description" content="We bring DeFi to Bitcoin. Arkadiko is an open source protocol that mints a stablecoin which generates a yield in bitcoin.">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="">
 
         <title>Arkadiko Finance</title>
         <link rel="icon" href="/favicon.ico" />
