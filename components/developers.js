@@ -58,20 +58,22 @@ export default function Developers() {
               <img src="/shape-thorus.png" width="125" height="125" />
             </div>
             <div className="relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
-              <h2 className="text-3xl sm:text-4xl font-extrabold font-headings bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-indigo-800">
+              <h2 className="text-4xl sm:text-3xl font-extrabold font-headings bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-indigo-800">
                 Develop on the new financial standard
               </h2>
               <p className="text-lg text-gray-700">
-                We believe in building in the open and transparency. <br/>
-                Contribute to the future of finance on Stacks/Bitcoin.
+                Arkadiko is a decentralised and transparent DAO. <br/>
+                We believe in building in the open. <br/>
+                All our code is licensed with GPLv3. <br/>
+                Contribute to the future of finance on Stacks and Bitcoin.
               </p>
               <div className="mt-10 sm:flex sm:justify-center lg:justify-start bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-800 space-y-3 sm:space-y-0 sm:space-x-3">
                 {resources.map((resource) => (
                   <div key={resource.name} className="rounded-md shadow relative group overflow-hidden">
                     <resource.icon className="absolute top-1/2 group-hover:left-0 transform -translate-x-16 -translate-y-1/2 transition duration-500 opacity-0 group-hover:-translate-x-0 group-hover:opacity-20 text-white block h-12 w-12 ml-2" aria-hidden="true" />
-                    <a href={resource.link} className={classNames(
+                    <a href={resource.link} target="_blank" className={classNames(
                       resource.btnClasses,
-                      'w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'w-full h-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                     )}>
                       {resource.name}
                     </a>

@@ -8,7 +8,7 @@ export default function Header() {
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 lg:px-8">
-            <div className="flex justify-between h-16">
+            <div className="flex justify-between h-20">
               <div className="flex justify-between flex-1">
                 <a className="flex-shrink-0 flex items-center" href="/">
                   <img className="hidden lg:block h-8 w-auto sm:h-8" src="/logo.svg" alt="Arkadiko" />
@@ -17,7 +17,7 @@ export default function Header() {
                 
                 <div className="hidden lg:ml-6 lg:flex lg:space-x-8 lg:items-center">
                   <div className="sm:flex sm:space-x-8 sm:h-full">
-                    <a className="border-transparent text-gray-50 hover:border-gray-100 hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="#" target="_blank" rel="noopener noreferrer">
+                    <a className="border-transparent text-gray-50 hover:border-gray-100 hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="#whitepaper" rel="noopener noreferrer">
                       Whitepaper
                     </a>
                     
@@ -32,11 +32,11 @@ export default function Header() {
                     </a>
 
                     <div className="self-center">
-                      <button
-                        type="button"
+                      <a
+                        href="https://forms.gle/3HSt7dNj92qEmXzf8"
                         className="relative inline-flex w-full justify-center items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                        <span>Launch app</span>
-                      </button>
+                        <span>Participate</span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ export default function Header() {
           <Disclosure.Panel className="lg:hidden bg-white">
             <div>
               <div className="pt-2 pb-3 space-y-1">
-                <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" href="" target="_blank" rel="noopener noreferrer">
+                <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" href="#whitepaper">
                   Whitepaper
                 </a>
 
@@ -70,11 +70,11 @@ export default function Header() {
                 </a>
               </div>
               <div className="p-3 border-t border-gray-200">
-                <button
-                  type="button"
+                <a
+                  href="https://forms.gle/3HSt7dNj92qEmXzf8"
                   className="relative inline-flex w-full justify-center items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                  <span>Open app</span>
-                </button>
+                  <span>Participate</span>
+                </a>
               </div>
             </div>
           </Disclosure.Panel>
