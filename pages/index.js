@@ -26,11 +26,11 @@ export default function Home() {
 
         {/* Open Graph */}
         <meta property="og:image" content="https://www.arkadiko.finance/logo_full.png" key="ogimage" />
-        <meta property="og:title" content="Arkadiko Finance">
-        <meta property="og:site_name" content="Arkadiko Finance">
-        <meta property="og:url" content="https://arkadiko.finance">
-        <meta property="og:description" content="We bring DeFi to Bitcoin. Arkadiko is an open source protocol that mints a stablecoin which generates a yield in bitcoin.">
-        <meta property="og:type" content="website">
+        <meta property="og:title" content="Arkadiko Finance" />
+        <meta property="og:site_name" content="Arkadiko Finance" />
+        <meta property="og:url" content="https://arkadiko.finance" />
+        <meta property="og:description" content="We bring DeFi to Bitcoin. Arkadiko is an open source protocol that mints a stablecoin which generates a yield in bitcoin." />
+        <meta property="og:type" content="website" />
 
         <title>Arkadiko Finance</title>
         <link rel="icon" href="/favicon.ico" />
