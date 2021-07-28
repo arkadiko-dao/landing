@@ -33,7 +33,6 @@ export default function Header() {
 
                     <div className="self-center">
                       <a
-                        type="button"
                         href="https://forms.gle/3HSt7dNj92qEmXzf8"
                         className="relative inline-flex w-full justify-center items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         <span>Participate</span>
@@ -72,7 +71,6 @@ export default function Header() {
               </div>
               <div className="p-3 border-t border-gray-200">
                 <a
-                  type="button"
                   href="https://forms.gle/3HSt7dNj92qEmXzf8"
                   className="relative inline-flex w-full justify-center items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                   <span>Participate</span>
