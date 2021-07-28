@@ -52,10 +52,10 @@ export default function Developers() {
 
           <div className="relative bg-gray-100 bg-opacity-80 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
             <div className="absolute bottom-full transform translate-y-1/3 -translate-x-2/3 right-0">
-              <img src="/shape-pyramid.png" width="150" height="150" />
+              <img src="/shape-pyramid.png" width="150" height="150" alt="" />
             </div>               
             <div className="absolute top-full transform -translate-y-1/3 -translate-x-1/3 xl:-translate-y-1/2">
-              <img src="/shape-thorus.png" width="125" height="125" />
+              <img src="/shape-thorus.png" width="125" height="125" alt="" />
             </div>
             <div className="relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
               <h2 className="text-4xl sm:text-3xl font-extrabold font-headings bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-indigo-800">
