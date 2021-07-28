@@ -46,4 +46,25 @@ html {
   }
 }
 
+.hero {
+  height: calc(100% - 148px);
+}
+
+@media (min-width: 418px) {
+  .hero {
+    height: calc(100% - 112px);
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: calc(100% - 144px);
+  }
+}
+@media (min-width: 1024px) {
+  .hero {
+    height: calc(100% - 84px);
+  }
+}
+
 @tailwind utilities;
