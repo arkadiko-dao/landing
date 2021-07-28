@@ -14,7 +14,7 @@ export default function Whitepaper() {
                   You confirm that by accessing the whitepaper and other informational materials, you will be deemed to have reviewed and accepted certain terms therein, including confirmations that you are not based in a jurisdiction where such access would be prohibited or restricted in any manner.
                 </span>
               </p>
-              <a href="" className="mt-8 bg-white hover:bg-white-800 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-800 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Download</a>
+              <a href="/arkadiko-whitepaper.pdf" className="mt-8 bg-white hover:bg-white-800 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-800 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Download</a>
             </div>
           </div>
           <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
