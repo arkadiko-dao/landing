@@ -71,7 +71,7 @@ export default function Developers() {
                     <resource.icon className="absolute top-1/2 group-hover:left-0 transform -translate-x-16 -translate-y-1/2 transition duration-500 opacity-0 group-hover:-translate-x-0 group-hover:opacity-20 text-white block h-12 w-12 ml-2" aria-hidden="true" />
                     <a href={resource.link} className={classNames(
                       resource.btnClasses,
-                      'w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'w-full h-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                     )}>
                       {resource.name}
                     </a>
