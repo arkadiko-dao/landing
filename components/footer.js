@@ -9,7 +9,7 @@ export default function Footer() {
             </div>
             <div className="text-sm text-gray-200 mt-4">We bring DeFi to Bitcoin. Arkadiko is an open source and non-custodial liquidity protocol for minting stablecoins, earning interest on deposits and borrowing assets on Stacks.</div>
             <div className="flex space-x-6 md:order-2 mt-6">
-              <a href="https://arkadikofinance.medium.com/" className="text-gray-300 transition duration-300 hover:text-white">
+              <a href="https://arkadikofinance.medium.com/" target="_blank" className="text-gray-300 transition duration-300 hover:text-white">
                 <span className="sr-only">Medium</span>
                 <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" clipRule="evenodd">
                   <path
@@ -17,7 +17,7 @@ export default function Footer() {
                   ></path>
                 </svg>
               </a>
-              <a href="https://twitter.com/ArkadikoFinance" className="text-gray-300 transition duration-300 hover:text-white">
+              <a href="https://twitter.com/ArkadikoFinance" target="_blank" className="text-gray-300 transition duration-300 hover:text-white">
                 <span className="sr-only">Twitter</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -25,7 +25,7 @@ export default function Footer() {
                   ></path>
                 </svg>
               </a>
-              <a href="https://github.com/arkadiko-dao/arkadiko" className="text-gray-300 transition duration-300 hover:text-white">
+              <a href="https://github.com/arkadiko-dao/arkadiko" target="_blank" className="text-gray-300 transition duration-300 hover:text-white">
                 <span className="sr-only">GitHub</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -35,14 +35,14 @@ export default function Footer() {
                   ></path>
                 </svg>
               </a>
-              <a href="https://discord.gg/7UB6JjjCNV" className="text-gray-300 transition duration-300 hover:text-white">
+              <a href="https://discord.gg/7UB6JjjCNV" target="_blank" className="text-gray-300 transition duration-300 hover:text-white">
                 <span className="sr-only">Discord</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M18.93 5.34a16.89 16.89 0 00-4.07-1.23c-.03 0-.05.01-.07.03-.17.3-.37.7-.5 1.01a15.72 15.72 0 00-4.57 0c-.14-.32-.34-.7-.52-1a.06.06 0 00-.06-.04 16.84 16.84 0 00-4.1 1.25A15.95 15.95 0 002.1 16.42a16.8 16.8 0 005 2.45c.02 0 .05 0 .06-.02.39-.51.73-1.05 1.02-1.61a.06.06 0 00-.03-.09c-.54-.2-1.06-.44-1.56-.72a.06.06 0 010-.1l.3-.24a.06.06 0 01.07 0 12.18 12.18 0 0010.05 0h.06l.32.24c.03.03.03.08-.01.1-.5.28-1.02.52-1.56.72a.06.06 0 00-.04.09c.3.56.65 1.1 1.03 1.6.01.03.04.04.07.03a16.75 16.75 0 005.02-2.49 15.85 15.85 0 00-2.98-11.04zM8.68 14.18c-.98 0-1.8-.88-1.8-1.95 0-1.08.8-1.95 1.8-1.95 1.01 0 1.82.88 1.8 1.95 0 1.07-.8 1.95-1.8 1.95zm6.65 0c-.99 0-1.8-.88-1.8-1.95 0-1.08.8-1.95 1.8-1.95s1.81.88 1.8 1.95c0 1.07-.8 1.95-1.8 1.95z"/>
                 </svg>
               </a>
               <span className="cursor-not-allowed">
-                <a href="" className="pointer-events-none text-gray-400">
+                <a href="#" target="_blank" className="pointer-events-none text-gray-400">
                   <span className="sr-only">Discourse</span>
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M6.45 18.2l.23-.06-.23.05z" /><path fillRule="evenodd" clipRule="evenodd" d="M3 11.81a9.6 9.6 0 019.48-9.62c5.14 0 9.31 4.48 9.31 9.79 0 5.31-4.17 9.79-9.32 9.79H3v-9.96zm3.46 6.35l.68-3.53a6.12 6.12 0 011.13-8.01 5.65 5.65 0 017.78.5c.42.32.79.7 1.1 1.13l.01.01a6.1 6.1 0 01.64 7.9 5.62 5.62 0 01-7.54 1.57l-3.81.46v-.03z" />
@@ -54,25 +54,25 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-white tracking-wider uppercase font-headings">Protocol</h3>
             <ul className="mt-4 space-y-4">
-              <li><a href="" className="text-base text-gray-300 transition duration-300 hover:text-white">Whitepaper</a></li>
-              <li><a href="https://docs.arkadiko.finance/" className="text-base text-gray-300 transition duration-300 hover:text-white">Documentation</a></li>
-              <li><a href="https://github.com/arkadiko-dao/arkadiko/blob/master/SECURITY.md" className="text-base text-gray-300 transition duration-300 hover:text-white">Bug Bounty</a></li>
+              <li><a href="#whitepaper" className="text-base text-gray-300 transition duration-300 hover:text-white">Whitepaper</a></li>
+              <li><a href="https://docs.arkadiko.finance/" target="_blank" className="text-base text-gray-300 transition duration-300 hover:text-white">Documentation</a></li>
+              <li><a href="https://github.com/arkadiko-dao/arkadiko/blob/master/SECURITY.md" target="_blank" className="text-base text-gray-300 transition duration-300 hover:text-white">Bug Bounty</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-sm font-semibold text-white tracking-wider uppercase font-headings">Features</h3>
             <ul className="mt-4 space-y-4">
-              <li><a href="https://arkadiko.finance/swap" className="text-base text-gray-300 transition duration-300 hover:text-white">Swap</a></li>
-              <li><a href="https://arkadiko.finance/stake" className="text-base text-gray-300 transition duration-300 hover:text-white">Staking</a></li>
-              <li><a href="https://arkadiko.finance/governance" className="text-base text-gray-300 transition duration-300 hover:text-white">Governance</a></li>
+              <li><a href="#features" className="text-base text-gray-300 transition duration-300 hover:text-white">Swap</a></li>
+              <li><a href="#features" className="text-base text-gray-300 transition duration-300 hover:text-white">Staking</a></li>
+              <li><a href="#features" className="text-base text-gray-300 transition duration-300 hover:text-white">Governance</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-sm font-semibold text-white tracking-wider uppercase font-headings">Support</h3>
             <ul className="mt-4 space-y-4">
-              <li><a href="https://twitter.com/ArkadikoFinance" className="text-base text-gray-300 transition duration-300 hover:text-white">Twitter</a></li>
-              <li><a href="https://discord.gg/7UB6JjjCNV" className="text-base text-gray-300 transition duration-300 hover:text-white">Discord</a></li>
-              <li className="cursor-not-allowed"><a href="" className="pointer-events-none text-base text-gray-400">Discourse</a></li>
+              <li><a href="https://twitter.com/ArkadikoFinance" target="_blank" className="text-base text-gray-300 transition duration-300 hover:text-white">Twitter</a></li>
+              <li><a href="https://discord.gg/7UB6JjjCNV" target="_blank" className="text-base text-gray-300 transition duration-300 hover:text-white">Discord</a></li>
+              <li className="cursor-not-allowed"><a href="#" target="_blank" className="pointer-events-none text-base text-gray-400">Discourse</a></li>
             </ul>
           </div>
         </div>
