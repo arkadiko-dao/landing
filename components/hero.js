@@ -6,7 +6,7 @@ const myLoader = ({ src, width, quality }) => {
 
 export default function Hero() {
   return (
-    <section id="hero" className="lg:relative bg-gray-800 relative py-16 sm:py-32 bg-opacity-75" style={{height: 'calc(100% - 84px)'}}> {/* Subtracts hero social's height */}
+    <section id="hero" className="hero lg:relative bg-gray-800 relative py-8 sm:py-12 md:py-16 lg:py-32 bg-opacity-75">
       <div className="max-w-7xl mx-auto px-4 lg:px-8">
         <div className="lg:w-1/2 xl:pr-16">
           <h1 className="font-headings text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl max-w-md mx-auto md:max-w-3xl">
