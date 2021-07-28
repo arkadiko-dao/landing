@@ -16,20 +16,24 @@ export default function Home() {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="description" content="" />
+        <meta name="description" content="We bring DeFi to Bitcoin. Arkadiko is an open source protocol that mints a stablecoin which generates a yield in bitcoin." />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary" key="twcard" />
-        <meta name="twitter:creator" content="" key="twhandle" />
+        <meta name="twitter:site" content="@ArkadikoFinance" />
+        <meta name="twitter:creator" content="@ArkadikoFinance" key="twhandle" />
+        <meta name="twitter:title" content="Arkadiko Finance - Loans that repay themselves" />
 
         {/* Open Graph */}
-        <meta property="og:url" content="" key="ogurl" />
-        <meta property="og:image" content="" key="ogimage" />
-        <meta property="og:site_name" content="" key="ogsitename" />
-        <meta property="og:title" content="" key="ogtitle" />
-        <meta property="og:description" content="" key="ogdesc" />
+        <meta property="og:image" content="https://www.arkadiko.finance/logo_full.png" key="ogimage" />
+        <meta property="og:title" content="Arkadiko Finance">
+        <meta property="og:site_name" content="Arkadiko Finance">
+        <meta property="og:url" content="https://arkadiko.finance">
+        <meta property="og:description" content="We bring DeFi to Bitcoin. Arkadiko is an open source protocol that mints a stablecoin which generates a yield in bitcoin.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="">
 
-        <title>Arkadiko</title>
+        <title>Arkadiko Finance</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
