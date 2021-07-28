@@ -44,7 +44,7 @@ export default function Footer() {
               <a href="" className="text-gray-300 hover:text-white">
                 <span className="sr-only">Discourse</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M6.45 18.2l.23-.06-.23.05z" fill="#fff"/><path fillRule="evenodd" clipRule="evenodd" d="M3 11.81a9.6 9.6 0 019.48-9.62c5.14 0 9.31 4.48 9.31 9.79 0 5.31-4.17 9.79-9.32 9.79H3v-9.96zm3.46 6.35l.68-3.53a6.12 6.12 0 011.13-8.01 5.65 5.65 0 017.78.5c.42.32.79.7 1.1 1.13l.01.01a6.1 6.1 0 01.64 7.9 5.62 5.62 0 01-7.54 1.57l-3.81.46v-.03z" fill="#fff"/>
+                  <path d="M6.45 18.2l.23-.06-.23.05z" /><path fillRule="evenodd" clipRule="evenodd" d="M3 11.81a9.6 9.6 0 019.48-9.62c5.14 0 9.31 4.48 9.31 9.79 0 5.31-4.17 9.79-9.32 9.79H3v-9.96zm3.46 6.35l.68-3.53a6.12 6.12 0 011.13-8.01 5.65 5.65 0 017.78.5c.42.32.79.7 1.1 1.13l.01.01a6.1 6.1 0 01.64 7.9 5.62 5.62 0 01-7.54 1.57l-3.81.46v-.03z" />
                 </svg>
               </a>
             </div>
