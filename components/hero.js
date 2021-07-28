@@ -33,7 +33,7 @@ export default function Hero() {
       <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full mt-8">
         <div className="absolute bottom-0 right-1/2 -mr-3 lg:m-0 lg:right-8 w-1/3 h-1/3 opacity-10" style={{backgroundImage: 'url(/pattern-triangles.svg)'}} />
         <div className="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0 w-1/3 h-1/3 opacity-10" style={{backgroundImage: 'url(/pattern-triangles.svg)'}} />
-        <div className="absolute top-0 right-16 bottom-16 left-16 shadow-lg">
+        <div className="absolute top-16 right-64 bottom-64 left-16 shadow-lg">
           <Image
             alt=""
             src="/bridge.jpg"
