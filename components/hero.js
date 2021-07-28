@@ -1,5 +1,9 @@
 import Image from 'next/image'
 
+const myLoader = ({ src, width, quality }) => {
+  return `${src}`
+}
+
 export default function Hero() {
   return (
     <section id="hero" className="lg:relative bg-gray-800 relative py-16 sm:py-32 bg-opacity-75" style={{height: 'calc(100% - 84px)'}}> {/* Subtracts hero social's height */}
@@ -35,6 +39,7 @@ export default function Hero() {
         <div className="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0 w-1/3 h-1/3 opacity-10" style={{backgroundImage: 'url(/pattern-triangles.svg)'}} />
         <div className="absolute top-16 right-64 bottom-64 left-16 shadow-lg">
           <Image
+            loader={myLoader}
             alt=""
             src="/bridge.jpg"
             layout="fill"

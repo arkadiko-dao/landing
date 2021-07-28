@@ -10,6 +10,10 @@ import Whitepaper from '../components/whitepaper'
 import Footer from '../components/footer'
 import HeroSocial from '../components/social'
 
+const myLoader = ({ src, width, quality }) => {
+  return `${src}`
+}
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen font-sans">
@@ -39,6 +43,7 @@ export default function Home() {
       <div>
         <div className="fixed w-screen h-screen overflow-hidden" style={{zIndex: "-1"}}>
           <Image
+            loader={myLoader}
             alt=""
             src="/waves.svg"
             layout="fill"

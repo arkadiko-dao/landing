@@ -1,10 +1,15 @@
 import Image from 'next/image'
 
+const myLoader = ({ src, width, quality }) => {
+  return `${src}`
+}
+
 export default function Community() {
   return (
     <section id="community" className="bg-gray-100 bg-opacity-80 relative py-16 sm:py-48">
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
         <Image
+          loader={myLoader}
           alt=""
           src="/community.png"
           layout="fill"
