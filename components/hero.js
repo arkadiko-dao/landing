@@ -6,7 +6,7 @@ const myLoader = ({ src, width, quality }) => {
 
 export default function Hero() {
   return (
-    <section id="hero" className="lg:relative bg-gray-800 relative py-16 sm:py-32 bg-opacity-75" style={{height: 'calc(100% - 84px)'}}> {/* Subtracts hero social's height */}
+    <section id="hero" className="hero lg:relative bg-gray-800 relative py-8 sm:py-12 md:py-16 lg:py-32 bg-opacity-75">
       <div className="max-w-7xl mx-auto px-4 lg:px-8">
         <div className="lg:w-1/2 xl:pr-16">
           <h1 className="font-headings text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl max-w-md mx-auto md:max-w-3xl">
@@ -21,12 +21,12 @@ export default function Hero() {
                 Participate
               </a>
             </div>
-            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3">
+            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 hidden md:block">
               <a href="https://docs.arkadiko.finance/" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base text-white rounded-md bg-transparent hover:bg-transparent hover:border hover:border-gray-50 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Docs
               </a>
             </div>
-            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3">
+            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 hidden md:block">
               <a href="#faq" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base text-white rounded-md bg-transparent hover:bg-transparent hover:border hover:border-gray-50 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 FAQ
               </a>
