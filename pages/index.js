@@ -38,6 +38,7 @@ export default function Home() {
 
         <title>Arkadiko Finance</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preload" as="font" />
       </Head>
 
       <div>
