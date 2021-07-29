@@ -21,12 +21,12 @@ export default function Hero() {
                 Participate
               </a>
             </div>
-            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3">
+            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 hidden md:block">
               <a href="https://docs.arkadiko.finance/" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base text-white rounded-md bg-transparent hover:bg-transparent hover:border hover:border-gray-50 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Docs
               </a>
             </div>
-            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3">
+            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 hidden md:block">
               <a href="#faq" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base text-white rounded-md bg-transparent hover:bg-transparent hover:border hover:border-gray-50 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 FAQ
               </a>
