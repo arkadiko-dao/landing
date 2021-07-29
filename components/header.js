@@ -11,7 +11,7 @@ export default function Header() {
             <div className="flex justify-between h-20">
               <div className="flex justify-between flex-1">
                 <a className="flex-shrink-0 flex items-center" href="/">
-                  <img className="hidden lg:block h-8 w-auto sm:h-8" src="/logo.svg" alt="Arkadiko" />
+                  <img className="hidden lg:block h-8 w-auto sm:h-8" src="/logo.svg" width="42" height="32" alt="Arkadiko" />
                   <span className="font-headings sm:ml-4 inline-block align-middle text-white text-xl">Arkadiko</span>
                 </a>
                 
