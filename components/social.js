@@ -26,7 +26,7 @@ export default function HeroSocial() {
                   <svg className="h-7 md:h-10 text-white" role="img" aria-label="Bitcoin DeFi with Stacks by Dan Held - YouTube video" focusable="false" viewBox="0 0 263 264" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0.499612 1.19998C0.199612 1.89998 0.0996089 61.2 0.199609 133L0.499612 263.5L44.2996 263.8L87.9996 264V0H44.4996C10.5996 0 0.799612 0.299982 0.499612 1.19998ZM77.9996 132V254H9.99961V10H77.9996V132ZM176 0.699982C176 1.19998 175.9 20.8 175.7 44.5L175.5 87.5L143.3 87.8L111 88V97H185V10H254V254H185V166H111V176L143.3 176.2L175.5 176.5L175.7 220L175.9 263.5L219.5 263.8L263 264V0H219.5C195.6 0 176 0.299982 176 0.699982Z" fill="white"/>
                   </svg>
-                    </a>              
+                </a>              
               </div>
             </div>
           </div>
