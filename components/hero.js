@@ -1,9 +1,3 @@
-import Image from 'next/image'
-
-const myLoader = ({ src, width, quality }) => {
-  return `${src}`
-}
-
 export default function Hero() {
   return (
     <section id="hero" className="hero lg:relative bg-gray-800 relative py-8 sm:py-12 md:py-16 lg:py-32 bg-opacity-75">
@@ -35,19 +29,20 @@ export default function Hero() {
         </div>
       </div>
       <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full mt-8">
-        <div className="absolute bottom-0 right-1/2 -mr-3 lg:m-0 lg:right-8 w-1/3 h-1/3 opacity-10" style={{backgroundImage: 'url(/pattern-triangles.svg)'}} />
-        <div className="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0 w-1/3 h-1/3 opacity-10" style={{backgroundImage: 'url(/pattern-triangles.svg)'}} />
+        <div className="absolute bottom-0 right-1/2 -mr-3 lg:m-0 lg:right-8 w-1/3 h-1/3 opacity-10 rounded-lg" style={{backgroundImage: 'url(/pattern-triangles.svg)'}} />
+        <div className="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0 w-1/3 h-1/3 opacity-10 rounded-lg" style={{backgroundImage: 'url(/pattern-triangles.svg)'}} />
         <div className="absolute top-16 right-64 bottom-64 left-16 shadow-lg">
-          <Image
-            loader={myLoader}
-            alt=""
-            src="/bridge.jpg"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            className="rounded-lg"
-          />
-          <div className="absolute inset-0 bg-indigo-400 mix-blend-overlay rounded-lg"></div>
+          <video
+            className="rounded-lg pointer-events-none"
+            controls 
+            muted 
+            autoPlay={"autoplay"} 
+            preLoad="auto" 
+            loop>
+              <source src="/hero-animation.mp4" type="video/mp4" />
+              <source src="/hero-animation.webm" type="video/webm" />
+              Sorry, your browser doesn't support embedded videos.
+          </video>
         </div>
       </div>
     </section>
