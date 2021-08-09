@@ -64,6 +64,10 @@ export default function Header() {
                 <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" href="https://docs.arkadiko.finance/" target="_blank" rel="noopener noreferrer">
                   Docs
                 </a>
+
+                <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" href="#faq" target="_blank" rel="noopener noreferrer">
+                  FAQ
+                </a>
               
                 <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" href="https://github.com/arkadiko-dao/arkadiko/blob/master/SECURITY.md" target="_blank" rel="noopener noreferrer">
                   Security
