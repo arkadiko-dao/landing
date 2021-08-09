@@ -38,8 +38,8 @@ export default function Hero() {
             autoPlay={"autoplay"} 
             preload="auto" 
             loop>
-              <source src="/hero-animation.mp4" type="video/mp4" />
               <source src="/hero-animation.webm" type="video/webm" />
+              <source src="/hero-animation.mp4" type="video/mp4" />
               Sorry, your browser doesn't support embedded videos.
           </video>
         </div>
