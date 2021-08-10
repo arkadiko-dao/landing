@@ -56,7 +56,7 @@ export default function Home() {
                       <div className="sm:flex sm:space-x-8 sm:h-full">
                         <div className="self-center">
                           <a
-                            href="/"
+                            href="https://github.com/arkadiko-dao/landing/blob/master/ArkadikoBrandKit.zip"
                             className="relative inline-flex w-full justify-center items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                             <span>Download kit</span>
                           </a>
@@ -81,7 +81,7 @@ export default function Home() {
                 <div>
                   <div className="p-3 border-t border-gray-200">
                     <a
-                      href="https://forms.gle/3HSt7dNj92qEmXzf8"
+                      href="https://github.com/arkadiko-dao/landing/blob/master/ArkadikoBrandKit.zip"
                       className="relative inline-flex w-full justify-center items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                       <span>Download kit</span>
                     </a>
@@ -109,7 +109,7 @@ export default function Home() {
                 </h2>
                 <p className="mt-8 text-xl text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p className="mt-12">
-                  <a href="" target="_blank" rel="noopener noreferrer" class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Download logo</a>
+                  <a href="https://github.com/arkadiko-dao/landing/blob/master/ArkadikoBrandKit.zip" className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Download logo</a>
                 </p>
               </div>
               <div className="mt-10 space-y-8 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-8 sm:gap-x-8 lg:mt-0 lg:col-span-2">
@@ -139,7 +139,7 @@ export default function Home() {
                 </h2>
                 <p className="mt-8 text-xl text-gray-600"><span className="font-bold">Kollektif Bold</span> for headings, <br/><span className="font-bold">Montserrat Regular and Bold</span> for text.</p>
                 <p className="mt-12">
-                  <a href="" target="_blank" rel="noopener noreferrer" class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Download fonts</a>
+                  <a href="https://github.com/arkadiko-dao/landing/blob/master/ArkadikoBrandKit.zip" className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Download fonts</a>
                 </p>
               </div>
             </div>
