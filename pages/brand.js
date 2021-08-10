@@ -107,7 +107,7 @@ export default function Home() {
                 <h2 className="text-3xl font-headings tracking-tight text-gray-900 sm:text-6xl">
                   Logo
                 </h2>
-                <p className="mt-8 text-xl text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="mt-8 text-xl text-gray-600">The Arkadiko Bridge is one of the oldest arch bridges still in use today. It is a symbol of longevity and trust, both core values to what we want to stand for with Arkadiko.</p>
                 <p className="mt-12">
                   <a href="https://github.com/arkadiko-dao/landing/blob/master/ArkadikoBrandKit.zip" className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Download logo</a>
                 </p>
