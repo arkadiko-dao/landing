@@ -133,7 +133,7 @@ export default function Home() {
         <section className="bg-white bg-opacity-90 overflow-hidden relative">
           <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16 sm:py-48">
             <div className="relative lg:grid lg:grid-cols-2 lg:gap-x-16">
-              <div class="lg:col-span-1">
+              <div className="lg:col-span-1">
                 <h2 className="text-3xl font-headings tracking-tight text-gray-900 sm:text-6xl">
                   Typography
                 </h2>
