@@ -57,6 +57,7 @@ export default function Footer() {
               <li><a href="#whitepaper" className="text-base text-gray-300 transition duration-300 hover:text-white">Whitepaper</a></li>
               <li><a href="https://docs.arkadiko.finance/" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Documentation</a></li>
               <li><a href="https://github.com/arkadiko-dao/arkadiko/blob/master/SECURITY.md" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Bug Bounty</a></li>
+              <li><a href="/brand" className="text-base text-gray-300 transition duration-300 hover:text-white">Brand</a></li>
             </ul>
           </div>
           <div>
