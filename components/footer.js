@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-10">
           <div className="col-span-2 sm:col-span-1 md:col-span-2 sm:pr-16">
             <div className="flex items-center">
-              <a aria-label="Home" href="/"><img className="h-8 w-auto sm:h-10" src="./logo.svg" alt="" width="42" height="32" /></a><a className="text-xl font-headings leading-6 text-white sm:truncate ml-4" href="/">Arkadiko</a>
+              <a aria-label="Home" href="/"><img className="h-8 w-auto sm:h-10" src="/logo.svg" alt="" width="42" height="32" /></a><a className="text-xl font-headings leading-6 text-white sm:truncate ml-4" href="/">Arkadiko</a>
             </div>
             <div className="text-sm text-gray-200 mt-4">We bring DeFi to Bitcoin. Arkadiko is an open source and non-custodial liquidity protocol for minting stablecoins, earning interest on deposits and borrowing assets on Stacks.</div>
             <div className="flex space-x-6 md:order-2 mt-6">
@@ -57,6 +57,7 @@ export default function Footer() {
               <li><a href="#whitepaper" className="text-base text-gray-300 transition duration-300 hover:text-white">Whitepaper</a></li>
               <li><a href="https://docs.arkadiko.finance/" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Documentation</a></li>
               <li><a href="https://github.com/arkadiko-dao/arkadiko/blob/master/SECURITY.md" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Bug Bounty</a></li>
+              <li><a href="/brand" className="text-base text-gray-300 transition duration-300 hover:text-white">Brand</a></li>
             </ul>
           </div>
           <div>

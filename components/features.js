@@ -74,6 +74,6 @@ export default function Features() {
           </dl>
         </div>
       </div>
-    </section >
+    </section>
   )
 }
