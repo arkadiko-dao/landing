@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-export default function Home() {
+export default function Brand() {
   return (
     <div className="flex flex-col min-h-screen font-sans">
       <div className="fixed w-screen h-screen overflow-hidden" style={{zIndex: "-1"}}>
