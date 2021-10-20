@@ -1,0 +1,23 @@
+{
+  "id": "blog_home",
+  "label": "Blog Home",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "headline": {
+        "config": {
+          "label": "Headline",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "description": {
+        "config": {
+          "label": "Description",
+          "placeholder": ""
+        },
+        "type": "Text"
+      }
+    }
+  }
+}
