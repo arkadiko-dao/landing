@@ -8,7 +8,7 @@ import {
 const features = [
   {
     name: 'USDA',
-    description: 'Collateralize your STX tokens and mint our stablecoin USDA, which earns a yield of up to 15% APR.',
+    description: 'Collateralize your STX tokens and mint our stablecoin USDA, which you can use for yield farming.',
     icon: CurrencyDollarIcon,
   },
   {
@@ -33,9 +33,9 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="bg-white bg-opacity-90 overflow-hidden relative">
-      <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16 sm:py-48">
-        <div className="absolute -left-1/2 bottom-28 ml-32 w-2/3 h-1/3 hidden lg:block">
+    <section id="features" className="relative overflow-hidden bg-white bg-opacity-90">
+      <div className="px-4 py-16 mx-auto max-w-7xl lg:px-8 sm:py-48">
+        <div className="absolute hidden w-2/3 ml-32 -left-1/2 bottom-28 h-1/3 lg:block">
           <svg viewBox="0 0 200 200 " xmlns="http://www.w3.org/2000/svg">
             <animateTransform
               attributeName="transform"
@@ -53,8 +53,8 @@ export default function Features() {
 
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-16">
           <div className="lg:col-span-1">
-            <p className="text-xs font-bold text-indigo-600 uppercase tracking-widest">Features</p>
-            <h2 className="mt-4 text-3xl font-headings tracking-tight text-gray-900 sm:text-4xl">
+            <p className="text-xs font-bold tracking-widest text-indigo-600 uppercase">Features</p>
+            <h2 className="mt-4 text-3xl tracking-tight text-gray-900 font-headings sm:text-4xl">
               A growing suite of liquidity solutions
             </h2>
             <p className="mt-4 text-lg text-gray-700">We build state of the art open source apps to access the Arkadiko Protocol.</p>
@@ -63,10 +63,10 @@ export default function Features() {
             {features.map((feature) => (
               <div key={feature.name}>
                 <dt>
-                  <div className="flex h-12 w-12 rounded-full bg-indigo-600 bg-opacity-20 text-white">
-                    <feature.icon className="h-12 w-12 absolute text-indigo-800 -mt-4 ml-3" aria-hidden="true" />
+                  <div className="flex w-12 h-12 text-white bg-indigo-600 rounded-full bg-opacity-20">
+                    <feature.icon className="absolute w-12 h-12 ml-3 -mt-4 text-indigo-800" aria-hidden="true" />
                   </div>
-                  <p className="font-bold mt-5 text-lg leading-6 text-gray-900">{feature.name}</p>
+                  <p className="mt-5 text-lg font-bold leading-6 text-gray-900">{feature.name}</p>
                 </dt>
                 <dd className="mt-2 text-base text-gray-700">{feature.description}</dd>
               </div>
