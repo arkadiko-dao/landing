@@ -10,11 +10,15 @@ export default function Hero() {
             Get rewarded to borrow, no need for monthly payments.
           </p>
           <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
-            <div className="rounded-md shadow">
-              <a href="https://app.arkadiko.finance" rel="noopener noreferrer" className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                Launch App
-              </a>
+            <div>
+              <div className="rounded-md shadow">
+                <a href="https://app.arkadiko.finance" rel="noopener noreferrer" className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  Launch App
+                </a>
+              </div>
+              <p className="mt-2 text-xs text-white">By launching the app, you <a className="underline" href="/arkadiko-EULA.pdf">agree to the EULA</a></p>
             </div>
+
             <div className="hidden mt-3 rounded-md sm:mt-0 sm:ml-3 md:block">
               <a href="https://docs.arkadiko.finance/" className="flex items-center justify-center w-full px-8 py-3 text-base text-white bg-transparent border border-transparent rounded-md hover:bg-transparent hover:border hover:border-gray-50 md:py-4 md:text-lg md:px-10 focus:focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Docs
