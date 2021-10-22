@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question: "How do I use Arkadiko?",
-    answer: "We are currently undergoing a security audit and are not live yet. Our mainnet launch will happen in October. Stay tuned and join our community for updates!",
+    answer: "Go to https://app.arkadiko.finance and enjoy the ride!",
   },
   {
     question: "Can I be liquidated?",
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: "Have your contracts been audited?",
-    answer: "We are currently undergoing a thorough security audit with a reputable firm. Findings will be fixed and published.",
+    answer: "We have done an extensive audit, which can read through here: https://github.com/arkadiko-dao/arkadiko/blob/master/docs/0F-ARK-2108-v1.0.pdf",
   },
   {
     question: "What is the DIKO token and why should I HODL it?",
