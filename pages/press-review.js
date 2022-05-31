@@ -6,7 +6,7 @@ const ITEMS = [
   {
     id: 5,
     date: 'April 22, 2022',
-    org: 'Coin Crush India',
+    org: 'Coin Crunch India',
     title: 'Building DeFi that settles on the Bitcoin Blockchain with Arkadiko',
     excerpt: 'Listen to Philip talk about what Arkadiko Finance and the new USDA stable coin is. Arkadiko is DeFi built on stacks blockchain which then settles on the Bitcoin blockchain…',
     link: 'https://www.youtube.com/watch?v=v242yMhWFEw',
