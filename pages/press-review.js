@@ -4,18 +4,34 @@ import { DocumentDownloadIcon } from '@heroicons/react/solid'
 
 const ITEMS = [
   {
-    id: 2,
+    id: 5,
+    date: 'April 22, 2022',
+    org: 'Coin Crush India',
+    title: 'Building DeFi that settles on the Bitcoin Blockchain with Arkadiko',
+    excerpt: 'Listen to Philip talk about what Arkadiko Finance and the new USDA stable coin is. Arkadiko is DeFi built on stacks blockchain which then settles on the Bitcoin blockchain…',
+    link: 'https://www.youtube.com/watch?v=v242yMhWFEw',
+    img: 'coin-crush-india.png',
+  },
+  {
+    id: 4,
     date: 'April 6, 2022',
-    org: 'Bitcoin Conference 2022',
+    org: 'Bitcoin Unleashed 2022',
     title: 'Arkadiko, a DeFi Protocol offering Self-Repaying Loans',
     excerpt: 'Bitcoin DeFi continues rising as the Stacks Ecosystem sees Arkadiko (DIKO) quickly amass over $30M TVL within 24 hours of launch and now sits at $50M. The launch was one of the community\'s most anticipated…',
     link: 'https://youtu.be/15CTQYXIJcQ?t=2255',
     img: 'bitcoin-conference.png',
-    fileType: '.mp4',
-    fileSize: '250 MB'
   },
   {
-    id: 1,
+    id: 3,
+    date: 'April 6, 2022',
+    org: 'Bitcoin Unleashed 2022',
+    title: 'Introducing the Best Bitcoin DeFi Protocols on Bitcoin',
+    excerpt: 'Bitcoin DeFi continues rising as the Stacks Ecosystem sees Arkadiko (DIKO) quickly amass over $30M TVL within 24 hours of launch and now sits at $50M. The launch was one of the community\'s most anticipated…',
+    link: 'https://youtu.be/rU0eXeRMt2E?t=201',
+    img: 'defi-panel.png',
+  },
+  {
+    id: 2,
     date: 'November 18, 2021',
     org: 'Stacks Foundation',
     title: 'Arkadiko: Self-Repaying Loans And Unlocking Bitcoin DeFi Through Stacks',
@@ -23,10 +39,11 @@ const ITEMS = [
     link: 'https://stacks.org/arkadiko-self-repaying-loans',
     img: 'stacks.png',
     fileType: '.png',
-    fileSize: '7 MB'
+    fileSize: '7 MB',
+    filePath: '/press/stacks.org_arkadiko-self-repaying-loans.png'
   },
   {
-    id: 0,
+    id: 1,
     date: 'October 27, 2021',
     org: 'Forbes',
     title: 'Arkadiko: The Protocol Bringing DeFi To Bitcoin Through Self-Repaying Loans',
@@ -34,7 +51,20 @@ const ITEMS = [
     link: 'https://www.forbes.com/sites/leeorshimron/2021/10/27/arkadiko-the-protocol-bringing-defi-to-bitcoin-through-self-repaying-loans/',
     img: 'forbes.png',
     fileType: '.png',
-    fileSize: '5 MB'
+    fileSize: '5 MB',
+    filePath: '/press/www.forbes.com_sites_leeorshimron_2021_10_27_arkadiko-the-protocol-bringing-defi-to-bitcoin-through-self-repaying-loans.png'
+  },
+  {
+    id: 0,
+    date: 'August 25, 2021',
+    org: 'Hiro',
+    title: 'Philip De Smedt on Loans That Repay Themselves — Stacker Chats Recap and Transcript',
+    excerpt: '"We want to make it easy to get access to liquidity and to borrow against your own assets on the Stacks blockchain, leveraging the security of Bitcoin."…',
+    link: 'https://www.hiro.so/blog/philip-de-smedt-on-loans-that-repay-themselves',
+    img: 'hiro.png',
+    fileType: '.png',
+    fileSize: '5.2 MB',
+    filePath: '/press/hiro.so-pds-loans-repay-themselves.png'
   },
 ]
 
@@ -97,7 +127,7 @@ export default function PressReview() {
         </div>
       </div>
 
-      <main className="relative py-16">
+      <main className="relative">
         <div className="max-w-4xl px-4 mx-auto pb-28 sm:px-6 md:px-8 xl:px-12 lg:max-w-7xl">
           <header class="py-16 sm:text-center">
             <h1 class="mb-4 text-3xl sm:text-4xl tracking-tight text-white font-extrabold">Arkadiko, everywhere.</h1>
@@ -133,10 +163,20 @@ export default function PressReview() {
                       <dt class="sr-only">Date</dt>
                       <dd class="whitespace-nowrap text-sm leading-6 text-slate-200"><time datetime="">{item.date}</time></dd>
                     </dl>
-                    <button className="hover:underline inline-flex items-center justify-end absolute left-0 top-7 opacity-50 hover:opacity-100 lg:left-auto lg:right-full lg:mr-[calc(6.5rem+1px)] text-slate-300 text-xs">
-                      <DocumentDownloadIcon className="w-5 h-5 mr-1 shrink-0" aria-hidden="true"/>
-                      <span className="shrink-0">{item.fileType} - {item.fileSize}</span>
-                    </button>
+                    {item.fileType ? (
+                      <a
+                        href={item.filePath}
+                        download
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline inline-flex items-center justify-end absolute left-0 top-7 opacity-50 hover:opacity-100 lg:left-auto lg:right-full lg:mr-[calc(6.5rem+1px)] text-slate-300 text-xs"
+                      >
+                        <span className="sr-only">Download</span>
+                        <DocumentDownloadIcon className="w-5 h-5 mr-1 shrink-0" aria-hidden="true"/>
+                        <span className="shrink-0">{item.fileType} - {item.fileSize}</span>
+                      </a>
+                    ) :
+                    null}
                   </div>
                   <a class="flex items-center text-sm text-indigo-400 font-medium" href={item.link}>
                     <span class="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl"></span>
