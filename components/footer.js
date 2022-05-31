@@ -41,14 +41,12 @@ export default function Footer() {
                   <path d="M18.93 5.34a16.89 16.89 0 00-4.07-1.23c-.03 0-.05.01-.07.03-.17.3-.37.7-.5 1.01a15.72 15.72 0 00-4.57 0c-.14-.32-.34-.7-.52-1a.06.06 0 00-.06-.04 16.84 16.84 0 00-4.1 1.25A15.95 15.95 0 002.1 16.42a16.8 16.8 0 005 2.45c.02 0 .05 0 .06-.02.39-.51.73-1.05 1.02-1.61a.06.06 0 00-.03-.09c-.54-.2-1.06-.44-1.56-.72a.06.06 0 010-.1l.3-.24a.06.06 0 01.07 0 12.18 12.18 0 0010.05 0h.06l.32.24c.03.03.03.08-.01.1-.5.28-1.02.52-1.56.72a.06.06 0 00-.04.09c.3.56.65 1.1 1.03 1.6.01.03.04.04.07.03a16.75 16.75 0 005.02-2.49 15.85 15.85 0 00-2.98-11.04zM8.68 14.18c-.98 0-1.8-.88-1.8-1.95 0-1.08.8-1.95 1.8-1.95 1.01 0 1.82.88 1.8 1.95 0 1.07-.8 1.95-1.8 1.95zm6.65 0c-.99 0-1.8-.88-1.8-1.95 0-1.08.8-1.95 1.8-1.95s1.81.88 1.8 1.95c0 1.07-.8 1.95-1.8 1.95z"/>
                 </svg>
               </a>
-              <span className="cursor-not-allowed">
-                <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 pointer-events-none">
-                  <span className="sr-only">Discourse</span>
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M6.45 18.2l.23-.06-.23.05z" /><path fillRule="evenodd" clipRule="evenodd" d="M3 11.81a9.6 9.6 0 019.48-9.62c5.14 0 9.31 4.48 9.31 9.79 0 5.31-4.17 9.79-9.32 9.79H3v-9.96zm3.46 6.35l.68-3.53a6.12 6.12 0 011.13-8.01 5.65 5.65 0 017.78.5c.42.32.79.7 1.1 1.13l.01.01a6.1 6.1 0 01.64 7.9 5.62 5.62 0 01-7.54 1.57l-3.81.46v-.03z" />
-                  </svg>
-                </a>
-              </span>
+              <a href="https://t.me/arkadikofin" target="_blank" rel="noopener noreferrer" className="text-gray-300 transition duration-300 hover:text-white">
+                <span className="sr-only">Telegram</span>
+                <svg className="w-6 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                  <path d="M226.328419 494.722069c145.760154-63.505384 242.95642-105.37202 291.588797-125.599908 138.855319-57.754731 167.708265-67.787346 186.514211-68.118629 4.136194-.072862 13.384412.952211 19.375019 5.813175 5.058351 4.104503 6.450106 9.649103 7.116105 13.540622.666 3.891519 1.495328 12.756499.836075 19.683337-7.524619 79.06182-40.083522 270.924008-56.647644 359.474601-7.008902 37.469075-20.809646 50.032265-34.170364 51.261739-29.035934 2.671932-51.084503-19.188971-79.207225-37.623769-44.006507-28.846821-68.867384-46.804056-111.583319-74.953224-49.365654-32.531233-17.363955-50.410965 10.769388-79.63145 7.362629-7.64714 135.295618-124.012084 137.771765-134.568208.309683-1.32022.597085-6.241374-2.326487-8.839924-2.923572-2.59855-7.238511-1.709947-10.352292-1.003233-4.41369 1.001745-74.714655 47.468076-210.902895 139.398991-19.954695 13.702434-38.029038 20.378719-54.223029 20.028857-17.852576-.385695-52.19377-10.094118-77.722918-18.392638-31.312539-10.178472-56.199122-15.559904-54.032059-32.846099 1.12874-9.00372 13.527697-18.2118 37.196872-27.62424Z"/>
+                </svg>
+              </a>
             </div>
           </div>
           <div>
@@ -58,6 +56,7 @@ export default function Footer() {
               <li><a href="https://docs.arkadiko.finance/" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Documentation</a></li>
               <li><a href="https://github.com/arkadiko-dao/arkadiko/blob/master/SECURITY.md" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Bug Bounty</a></li>
               <li><a href="/brand" className="text-base text-gray-300 transition duration-300 hover:text-white">Brand</a></li>
+              <li><a href="/press-review" className="text-base text-gray-300 transition duration-300 hover:text-white">Press Review</a></li>
               <li><a href="/arkadiko-EULA.pdf" className="text-base text-gray-300 transition duration-300 hover:text-white">EULA</a></li>
             </ul>
           </div>
@@ -74,7 +73,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-4">
               <li><a href="https://twitter.com/ArkadikoFinance" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Twitter</a></li>
               <li><a href="https://discord.gg/7UB6JjjCNV" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Discord</a></li>
-              <li className="cursor-not-allowed"><a href="#" target="_blank" rel="noopener noreferrer" className="text-base text-gray-400 pointer-events-none">Discourse</a></li>
+              <li><a href="https://t.me/arkadikofin" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 transition duration-300 hover:text-white">Telegram</a></li>
             </ul>
           </div>
         </div>
