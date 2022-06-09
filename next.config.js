@@ -3,7 +3,8 @@ module.exports = {
   exportPathMap: function() {
     return {
       '/': { page: '/' },
-      '/brand': { page: '/brand' }
+      '/brand': { page: '/brand' },
+      '/press-review': { page: '/press-review' }
     };
   },
   images: {
