@@ -4,6 +4,7 @@ module.exports = {
     return {
       '/': { page: '/' },
       '/brand': { page: '/brand' },
+      '/roadmap': { page: '/roadmap' },
       '/press-review': { page: '/press-review' }
     };
   },
