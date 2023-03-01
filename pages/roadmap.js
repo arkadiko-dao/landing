@@ -5,12 +5,54 @@ import { DocumentDownloadIcon } from '@heroicons/react/solid'
 const ITEMS = [
   {
     id: 0,
-    date: 'February 27, 2023',
-    title: 'DIKO to the moon! 🍆🚀🌖',
-    excerpt: 'Listen to Philip talk about what Arkadiko Finance and the new USDA stable coin is. Arkadiko is DeFi built on stacks blockchain which then settles on the Bitcoin blockchain…',
-    link: 'https://randomstuffgoeshere.com',
-    img: 'stacks.png',
+    date: 'January, 2023',
+    title: 'Stable Swap Release',
+    excerpt: 'In collaboration with ALEX, we released the first version of our stable swap xUSD/USDA. In this pool xUSD and USDA are priced stable against each other (~$1), which allows for efficient and low slippage swaps. The swap mechanism works smoothly and incentivises arbitrage of the two stablecoins.',
+    img: 'alex_diko_bg.png',
+    link: 'https://app.alexlab.co/pool/token-amm-swap-pool:token-wxusd,token-wusda,0.005e8',
+    linkText: 'Add liquidity for xUSD/USDA'
   },
+  {
+    id: 1,
+    date: 'March, 2023',
+    title: 'Stacks 2.1 Upgrade',
+    excerpt: 'The long-awaited Stacks 2.1 upgrade is finally here! In March, Arkadiko will upgrade its Proof-of-Transfer (PoX) stacker contracts to take advantage of the more efficient continuous stacking of Stacks 2.1. The stacked STX in your Arkadiko vaults will see a yield increase of up to 33% thanks to this hard fork!',
+    img: 'stacks.png',
+    link: 'https://www.hiro.so/blog/stacks-2-1-is-here',
+    linkText: 'Read more'
+  },
+  {
+    id: 2,
+    date: 'May 2023',
+    title: 'Multisig Oracle Upgrade',
+    img: 'oracle.png',
+    excerpt: 'A functioning DeFi ecosystem needs great and reliable oracles. Any DeFi OG should be well-aware of that! We continuously innovate on our core infrastructure and oracles are a major part of that. Expect further decentralisation and multisig capabilities on Arkadiko Oracles soon.'
+  },
+  {
+    id: 3,
+    date: 'Q2 2023',
+    title: 'Borrowing stablecoins against native BTC through DLCs',
+    img: 'moon.jpeg',
+    excerpt: 'This one is a beast! 🐲 As part of a new product, Arkadiko is collaborating with the great people of DLC.link to launch the first native bitcoin lending market on-chain. Borrow stablecoins against a DLC (Discreet Log Contract) on Bitcoin!',
+    link: 'https://www.dlc.link/',
+    linkText: 'Learn more about DLCs'
+  },
+  {
+    id: 4,
+    date: 'Q3 2023',
+    title: 'DIKO Tokenomics Upgrade 🐎',
+    img: 'hiro.png',
+    excerpt: 'Tokenomics are of utmost importance! We get that. The DIKO emissions in our farms have been extremely profitable and now your DIKO will become more valuable too! Expect great things such as a USDA revenue share for staking DIKO and improved incentives for DIKO holders. More on this soon.',
+  },
+  {
+    id: 5,
+    date: 'Q4 2023',
+    title: 'sBTC as collateral',
+    img: 'sbtc.png',
+    excerpt: 'sBTC is the Stacks way of unlocking a truly decentralised bitcoin asset. sBTC powers smart contracts on Bitcoin, secured by the entire hash power of Bitcoin, without relying on a fixed federation or other points of centralization. Arkadiko will support sBTC as pristine collateral to borrow USDA against!',
+    link: 'https://www.stacks.co/learn/sbtc',
+    linkText: 'Learn about sBTC'
+  }
 ]
 
 export default function PressReview() {
@@ -66,8 +108,8 @@ export default function PressReview() {
       <main className="relative">
         <div className="max-w-4xl px-4 mx-auto pb-28 sm:px-6 md:px-8 xl:px-12 lg:max-w-7xl">
           <header class="py-16 sm:text-center">
-            <h1 class="mb-4 text-3xl sm:text-4xl tracking-tight text-white font-extrabold">Arkadiko, the roadmap.</h1>
-            <p class="text-lg text-slate-200">Where we're going we don't need fiat...</p>
+            <h1 class="mb-4 text-3xl sm:text-4xl tracking-tight text-white font-extrabold">Arkadiko in 2023</h1>
+            <p class="text-lg text-slate-200">Where we're going we don't need fiat... 🌚</p>
           </header>
           <div class="relative sm:pb-12 sm:ml-[calc(2rem+1px)] md:ml-[calc(3.5rem+1px)] lg:ml-[max(calc(12rem+1px),calc(100%-52rem))]">
             <div class="hidden absolute top-3 bottom-0 right-full mr-7 md:mr-[3.25rem] w-px sm:block bg-gradient-to-b from-white/60 to-white/10"></div>
@@ -97,7 +139,7 @@ export default function PressReview() {
                     </div>
                     <dl class="absolute left-0 top-0 lg:left-auto lg:right-full lg:mr-[calc(6.5rem+1px)]">
                       <dt class="sr-only">Date</dt>
-                      <dd class="whitespace-nowrap text-sm leading-6 text-slate-200"><time datetime="">{item.date}</time></dd>
+                      <dd class="whitespace-nowrap text-sm leading-6 text-slate-200"><time dateTime={item.date.toString}>{item.date}</time></dd>
                     </dl>
                     {item.fileType ? (
                       <a
@@ -114,13 +156,15 @@ export default function PressReview() {
                     ) :
                     null}
                   </div>
-                  <a class="flex items-center text-sm text-indigo-400 font-medium" href={item.link}>
-                    <span class="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl"></span>
-                    <span class="relative">Read more</span>
-                    <svg class="relative mt-px overflow-visible ml-2.5 text-indigo-400" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M0 0L3 3L0 6"></path>
-                    </svg>
-                  </a>
+                  {item.link && (
+                    <a class="flex items-center text-sm text-indigo-400 font-medium" href={item.link} target="_blank" rel="noopener noreferrer">
+                      <span class="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl"></span>
+                      <span class="relative">{item.linkText}</span>
+                      <svg class="relative mt-px overflow-visible ml-2.5 text-indigo-400" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M0 0L3 3L0 6"></path>
+                      </svg>
+                    </a>
+                  )}
                 </article>
               ))}
             </div>
