@@ -4,6 +4,42 @@ import { DocumentDownloadIcon } from '@heroicons/react/solid'
 
 const ITEMS = [
   {
+    id: 8,
+    date: 'February 28, 2023',
+    org: 'The Blockopedia',
+    title: 'Arkadiko: The Future of DeFi on the Stacks Blockchain',
+    excerpt: 'The current market for decentralized finance (DeFi) has seen rapid growth in recent years, with a wide range of financial products and services now available on blockchain platforms…',
+    link: 'https://theblockopedia.com/arkadiko-the-future-of-defi-on-the-stacks-blockchain/',
+    img: 'arkadiko-future.png',
+    fileType: '.png',
+    fileSize: '2.5 MB',
+    filePath: '/press/resources/Arkadiko-TheFutureOfDeFiOnTheStacksBlockchain-The-Blockopedia.png'
+  },
+  {
+    id: 7,
+    date: 'January 28, 2023',
+    org: 'The Blockopedia',
+    title: 'Interview with Philip De Smedt: Founder of “Arkadiko Finance”',
+    excerpt: 'Today we have the Founder of Arkadiko Finance, Mr. Philip De Smedt, to tell us more about Arkadiko Finance and what inspires him to work on such a type of project…',
+    link: 'https://theblockopedia.com/interview-with-philip-de-smedt-founder-of-arkadiko-finance/',
+    img: 'blockopedia.png',
+    fileType: '.png',
+    fileSize: '2.5 MB',
+    filePath: '/press/resources/Interview-with-Philip-De-Smedt-Founder-of-“Arkadiko-Finance”-The-Blockopedia.png'
+  },
+  {
+    id: 6,
+    date: 'November 2, 2022',
+    org: 'Stacks Foundation',
+    title: 'Builder Spotlight: Arkadiko',
+    excerpt: 'Here we learn more about how Phillip became a builder in the Stacks ecosystem, his belief in "building in the open," what Arkadiko unlocks for users, and more…',
+    link: 'https://stacks.org/builder-spotlight-arkadiko',
+    img: 'stacks-foundation.png',
+    fileType: '.png',
+    fileSize: '2.2 MB',
+    filePath: '/press/resources/Builder-Spotlight-Arkadiko.png'
+  },
+  {
     id: 5,
     date: 'April 22, 2022',
     org: 'Coin Crunch India',
@@ -40,7 +76,7 @@ const ITEMS = [
     img: 'stacks.png',
     fileType: '.png',
     fileSize: '7 MB',
-    filePath: '/press/stacks.org_arkadiko-self-repaying-loans.png'
+    filePath: '/press/resources/stacks.org_arkadiko-self-repaying-loans.png'
   },
   {
     id: 1,
@@ -52,7 +88,7 @@ const ITEMS = [
     img: 'forbes.png',
     fileType: '.png',
     fileSize: '5 MB',
-    filePath: '/press/www.forbes.com_sites_leeorshimron_2021_10_27_arkadiko-the-protocol-bringing-defi-to-bitcoin-through-self-repaying-loans.png'
+    filePath: '/press/resources/www.forbes.com_sites_leeorshimron_2021_10_27_arkadiko-the-protocol-bringing-defi-to-bitcoin-through-self-repaying-loans.png'
   },
   {
     id: 0,
@@ -64,7 +100,7 @@ const ITEMS = [
     img: 'hiro.png',
     fileType: '.png',
     fileSize: '5.2 MB',
-    filePath: '/press/hiro.so-pds-loans-repay-themselves.png'
+    filePath: '/press/resources/hiro.so-pds-loans-repay-themselves.png'
   },
 ]
 

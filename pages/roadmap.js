@@ -8,7 +8,7 @@ const ITEMS = [
     date: 'January, 2023',
     title: 'Stable Swap Release',
     excerpt: 'In collaboration with ALEX, we released the first version of our stable swap xUSD/USDA. In this pool xUSD and USDA are priced stable against each other (~$1), which allows for efficient and low slippage swaps. The swap mechanism works smoothly and incentivises arbitrage of the two stablecoins.',
-    img: 'alex_diko_bg.png',
+    img: 'alex-diko.png',
     link: 'https://app.alexlab.co/pool/token-amm-swap-pool:token-wxusd,token-wusda,0.005e8',
     linkText: 'Add liquidity for xUSD/USDA'
   },
